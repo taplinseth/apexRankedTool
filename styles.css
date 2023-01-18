@@ -1,0 +1,51 @@
+body {
+   display: flex;
+    background-color: black;
+}
+body section {
+    height: 800px;
+    text-align: center;
+}
+
+button {
+    border-radius: 20%;
+    background-color: black;
+    color: black;
+    margin: 15px;
+}
+
+button:focus {
+    background-color: rgb(83, 83, 83)
+}
+
+#form {
+    font-size: larger;
+    padding: 5%;
+    display: flex-box;
+    justify-content: center;
+    height: 800px;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+#rp {
+    margin-top: 20%;
+    color: red;
+    text-align: center;
+    width: 350px;
+    font-size: 50px;
+}
+
+#round-container {
+    margin: 100px 20px 100px 20px;
+}
+
+#kp-container {
+    margin: 100px 20px 100px 20px;
+}
+
+#participation-container {
+    margin: 100px 20px 100px 20px;
+}

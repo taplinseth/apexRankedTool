@@ -165,7 +165,7 @@ function calculateRP() {
     let totalRP = Math.floor(entryFee + roundPoints + killPoints + participationPoints);
 
     const rpDiv = document.getElementById("rp");
-    rpDiv.innerHTML = totalRP;
+    rpDiv.innerHTML = "RP Gained = " + totalRP;
 
     console.log(totalRP);
 }
