@@ -15,7 +15,7 @@ button {
 }
 
 button:hover {
-    border: 1px solid rgb(83, 83, 83);
+    border: 2px solid rgb(83, 83, 83);
 }
 
 button:focus {
